@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+a:hover {
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.headerWrapper {
+  border-bottom: 1px solid #ccc;
+}
+
+.headerWrapper .userBalance {
+  margin-left: 8px;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.headerWrapper .userBalance .arBalance {
+  font-size: 12px;
+}
+
+.headerWrapper .userBalance .arBalanceUsd {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.main {
+  min-height: 930px;
+  background-color: #EEF0F1;
+}
+
+.header {
+  padding: 2px;
+}
+
+.header p {
+  margin-bottom: 0;
+}
+
+.header .logoText {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #50ACBC;
+}
+
+.file-input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	height: 220px;
+	border: 2px dashed #62666f;
+}
+
+.file-input p {
+  position: absolute;
+}
+
+.advert {
+  margin: 1%;
+  width: 23%;
+  border: 1px solid #ccc;
+  border-radius: 2% 2%;
+  box-shadow: 1px 1px #d3d3d3;
+}
+
+.advert p.advertName {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.advert p.adverPrice {
+  margin-top: -2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.advert p.advertTime {
+  color: #949494;
+  font-size: 13px;
+}
+
+.advertDetailed p.advertTime {
+  color: #949494;
+  font-size: 14px;
+}
+
+.advertDetailed p.advertType {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a3a3a3;
+  border-radius: 3px 3px;
+}
+
+.advert .locationAuthor {
+  margin-top: -3px;
+  font-size: 13px;
+  color: #949494;
+}
+
+.advert .advertImg img {
+  width: '100%';
+  height: '50%';
+  border-radius: 2% 2%;
+}
+
+.advert a {
+  color: black;
+}
+
+.advert a:hover {
+  color: rgb(87, 79, 79);
+}
+
+.advertTextInfo {
+  padding: 5px;
+}
+
+.locationAuthor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.authorBlock {
+  display: flex;
+  padding: 15px 0 15px;
+}
+
+.authorBlock .authorData {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+p.h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.latestPosts {
+  border-top: 1px solid #ccc;
+}
+
+.authorBlock .authorInfo {
+  font-size: 16px;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+}
+
+.footer .footerText {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* item page */
+.advertDetailed #itemBorder {
+  margin-top: 10px;
+  padding: 5px;
+  border-top: 1px solid #ccc;
+}
+
+.sellerDetailed {
+  margin-top: 55px;
+}
+
+.sellerDetailed p {
+  margin-top: 10px;
+}
+
+.sellerDetailed .contactButton {
+  width: 230px;
+  height: 60px;
+  font-size: 23px;
+}
+
+.sellerDetailed p.price {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sellerDetailed p.author {
+  font-size: 16px;
+}
+
+.sellerDetailed p.date {
+  font-size: 13px;
+  color: #949494
+}
+
+/* create advert page */
+.createAdvert .formGroup {
+  border-radius: 5px 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+.createAdvert .formInput {
+  background-color: #EEF0F1;
+}
+
+.createAdvert .advertType {
+  display: flex;
+}
+
+.createAdvert .emptyImageBlock {
+  display: flex;
+  border-radius: 7px 7px;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 150px;
+  background-color: #EEF0F1;
+}
+
+.createAdvert .emptyImageBlock img.imgEmpty {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+}
+
+.createAdvert .emptyImageBlock img.imgAdvert {
+  width: 173px;
+  height: 147px;
+}
+
+.createAdvert #fileImport {
+  border: 1px solid black;
+}
+
+.createAdvert .publishButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.loadText {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 150px;
+  width: 100%;
+}
+
+/* Profile page */
+.profilePage h5 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid  #b7b7b7;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+input[type=file] {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
